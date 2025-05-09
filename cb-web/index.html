@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chandlerbot</title>
+  <link rel="icon" href="img/pb-favicon.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/chandlerbot.css">
+  <script src="js/jquery-3.7.1.min.js" defer></script>
+  <script src="js/jquery-ui.js" defer></script>
+  <script src="js/chandlerbot.js" defer></script>
+</head>
+<body>
+  <main class="main">
+    <section class="mainfade">
+      <section class="confmain">
+        <p>config here</p>
+        <p>here</p>
+        <p>here</p>
+        <p>here</p>
+      </section>
+
+      <section class="viewborder">
+        <div class="logsize" aria-label="Log Output"></div>
+        <div class="cpuload" aria-label="CPU Load"></div>
+        <div class="queue" aria-label="Queue Status"></div>
+        <div class="fwdstatus" aria-label="Forwarding Status"></div>
+        <div class="viewcontainer" aria-label="View Container"></div>
+      </section>
+
+      <section class="fulllog" aria-label="Full Log"></section>
+    </section>
+
+    <nav class="mainmenu" role="navigation" aria-label="Main Menu">
+      <div class="fulllogbutton">
+        <button class="clickbutton" id="flog">fulllog</button>
+      </div>
+      <div class="fulllogbuttonhide">
+        <button class="clickbutton" id="floghide">back</button>
+      </div>
+      <div class="botcmd">
+        <button class="clickbutton" id="botcmdid">botcmd</button>
+      </div>
+      <div id="botaction" aria-label="Bot Actions">
+        <button class="clickbutton" id="botstart">start</button><br>
+        <button class="clickbutton" id="botstop">stop</button><br>
+        <button class="clickbutton" id="botrestart">restart</button><br>
+        <!-- <button class="clickbutton" id="bottest">test</button><br> -->
+      </div>
+    </nav>
+
+    <section class="botcmdout" aria-label="Bot Command Output">
+      <div class="botcmdouttext"></div>
+      <button class="clickbutton" id="botokay">okay</button><br>
+    </section>
+
+    <section class="editout" aria-label="Edit Output">
+      <div class="editouttext"></div>
+      <button class="clickbutton" id="editokaybutton">okay</button>
+      <button class="clickbutton" id="editsavebutton">save</button>
+      <button class="clickbutton" id="editdeletebutton">delete</button><br>
+    </section>
+
+    <section class="yesno" aria-label="Confirmation Prompt"></section>
+
+    <footer class="statement" style="position: relative; width: 10%; margin: auto; left: 43%;">
+      <p style="text-align: center;">i'm a trader, and i'm happy with them! 😎</p>
+    </footer>
+  </main>
+</body>
+</html>
