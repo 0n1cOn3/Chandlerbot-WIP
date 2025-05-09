@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'danog\\' => array($vendorDir . '/danog/primemodule/lib'),
-    'Your\\Project\\' => array($baseDir . '/src'),
 );

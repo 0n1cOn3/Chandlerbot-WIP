@@ -95,6 +95,10 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         array (
             'Kelunik\\Certificate\\' => 20,
         ),
+        'H' => 
+        array (
+            'Hx\\Chandlerbot\\' => 15,
+        ),
         'D' => 
         array (
             'DASPRiD\\Enum\\' => 13,
@@ -215,13 +219,17 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri',
-            1 => __DIR__ . '/..' . '/league/uri-components',
+            0 => __DIR__ . '/..' . '/league/uri-components',
+            1 => __DIR__ . '/..' . '/league/uri',
             2 => __DIR__ . '/..' . '/league/uri-interfaces',
         ),
         'Kelunik\\Certificate\\' => 
         array (
             0 => __DIR__ . '/..' . '/kelunik/certificate/src',
+        ),
+        'Hx\\Chandlerbot\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'DASPRiD\\Enum\\' => 
         array (
@@ -313,8 +321,8 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         ),
         'Amp\\Http\\' => 
         array (
-            0 => __DIR__ . '/..' . '/amphp/hpack/src',
-            1 => __DIR__ . '/..' . '/amphp/http/src',
+            0 => __DIR__ . '/..' . '/amphp/http/src',
+            1 => __DIR__ . '/..' . '/amphp/hpack/src',
         ),
         'Amp\\File\\' => 
         array (
@@ -348,13 +356,6 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
             'danog\\' => 
             array (
                 0 => __DIR__ . '/..' . '/danog/primemodule/lib',
-            ),
-        ),
-        'Y' => 
-        array (
-            'Your\\Project\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
             ),
         ),
     );
