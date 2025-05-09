@@ -1,9 +1,14 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "619ab626ead88b43ce90c99adb1d56be",
     "packages": [
         {
             "name": "amphp/amp",
             "version": "v3.0.2",
-            "version_normalized": "3.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/amp.git",
@@ -24,9 +29,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.23.1"
             },
-            "time": "2024-05-10T21:37:46+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php",
@@ -82,12 +85,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/amp"
+            "time": "2024-05-10T21:37:46+00:00"
         },
         {
             "name": "amphp/byte-stream",
             "version": "v2.1.1",
-            "version_normalized": "2.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/byte-stream.git",
@@ -114,9 +116,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.22.1"
             },
-            "time": "2024-02-17T04:49:38+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php",
@@ -160,12 +160,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/byte-stream"
+            "time": "2024-02-17T04:49:38+00:00"
         },
         {
             "name": "amphp/cache",
             "version": "v2.0.1",
-            "version_normalized": "2.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/cache.git",
@@ -190,9 +189,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.4"
             },
-            "time": "2024-04-19T03:38:06+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Cache\\": "src"
@@ -228,12 +225,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/cache"
+            "time": "2024-04-19T03:38:06+00:00"
         },
         {
             "name": "amphp/dns",
             "version": "v2.2.0",
-            "version_normalized": "2.2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/dns.git",
@@ -262,9 +258,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.20"
             },
-            "time": "2024-06-02T19:54:12+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -319,12 +313,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/dns"
+            "time": "2024-06-02T19:54:12+00:00"
         },
         {
             "name": "amphp/file",
             "version": "v3.1.1",
-            "version_normalized": "3.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/file.git",
@@ -355,9 +348,7 @@
                 "ext-eio": "^2 || ^3",
                 "ext-uv": "^0.3 || ^0.2"
             },
-            "time": "2024-08-15T15:04:06+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -407,12 +398,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/file"
+            "time": "2024-08-15T15:04:06+00:00"
         },
         {
             "name": "amphp/hpack",
             "version": "v3.2.1",
-            "version_normalized": "3.2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/hpack.git",
@@ -433,14 +423,12 @@
                 "nikic/php-fuzzer": "^0.0.10",
                 "phpunit/phpunit": "^7 | ^8 | ^9"
             },
-            "time": "2024-03-21T19:00:16+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Http\\": "src"
@@ -484,12 +472,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/hpack"
+            "time": "2024-03-21T19:00:16+00:00"
         },
         {
             "name": "amphp/http",
             "version": "v2.1.1",
-            "version_normalized": "2.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/http.git",
@@ -514,9 +501,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.4"
             },
-            "time": "2024-04-03T18:00:53+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php",
@@ -551,12 +536,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/http"
+            "time": "2024-04-03T18:00:53+00:00"
         },
         {
             "name": "amphp/http-client",
             "version": "v5.1.0",
-            "version_normalized": "5.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/http-client.git",
@@ -599,9 +583,7 @@
                 "ext-json": "Required for logging HTTP archives",
                 "ext-zlib": "Allows using compression for response bodies."
             },
-            "time": "2024-04-21T16:40:36+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php",
@@ -649,12 +631,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/http-client"
+            "time": "2024-04-21T16:40:36+00:00"
         },
         {
             "name": "amphp/http-client-cookies",
             "version": "2.x-dev",
-            "version_normalized": "2.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/http-client-cookies.git",
@@ -688,10 +669,8 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.6"
             },
-            "time": "2023-10-08T17:29:36+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Http\\Client\\Cookie\\": "src"
@@ -730,12 +709,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/http-client-cookies"
+            "time": "2023-10-08T17:29:36+00:00"
         },
         {
             "name": "amphp/http-server",
             "version": "3.x-dev",
-            "version_normalized": "3.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/http-server.git",
@@ -776,10 +754,8 @@
             "suggest": {
                 "ext-zlib": "Allows GZip compression of response bodies"
             },
-            "time": "2024-12-31T16:35:28+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/Driver/functions.php",
@@ -831,12 +807,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/http-server"
+            "time": "2024-12-31T16:35:28+00:00"
         },
         {
             "name": "amphp/http-server-router",
             "version": "2.x-dev",
-            "version_normalized": "2.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/http-server-router.git",
@@ -867,10 +842,8 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.6"
             },
-            "time": "2023-11-26T17:00:02+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Http\\Server\\": "src"
@@ -914,12 +887,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/http-server-router"
+            "time": "2023-11-26T17:00:02+00:00"
         },
         {
             "name": "amphp/log",
             "version": "v2.0.0",
-            "version_normalized": "2.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/log.git",
@@ -945,9 +917,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.6"
             },
-            "time": "2023-08-05T18:59:54+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -991,12 +961,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/log"
+            "time": "2023-08-05T18:59:54+00:00"
         },
         {
             "name": "amphp/mysql",
             "version": "3.x-dev",
-            "version_normalized": "3.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/mysql.git",
@@ -1028,10 +997,8 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.23"
             },
-            "time": "2024-03-10T17:33:58+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -1065,12 +1032,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/mysql"
+            "time": "2024-03-10T17:33:58+00:00"
         },
         {
             "name": "amphp/mysql-dbal",
             "version": "dev-master",
-            "version_normalized": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/mysql-dbal.git",
@@ -1087,10 +1053,8 @@
                 "amphp/mysql": "^3",
                 "doctrine/dbal": "^3"
             },
-            "time": "2021-01-06T20:12:21+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Mysql\\DBAL\\": "src"
@@ -1116,12 +1080,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/mysql-dbal"
+            "time": "2021-01-06T20:12:21+00:00"
         },
         {
             "name": "amphp/parallel",
             "version": "2.x-dev",
-            "version_normalized": "2.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/parallel.git",
@@ -1152,10 +1115,8 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.18"
             },
-            "time": "2025-03-16T18:21:35+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/Context/functions.php",
@@ -1204,12 +1165,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/parallel"
+            "time": "2025-03-16T18:21:35+00:00"
         },
         {
             "name": "amphp/parallel-functions",
             "version": "2.x-dev",
-            "version_normalized": "2.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/parallel-functions.git",
@@ -1235,10 +1195,8 @@
                 "phpunit/phpunit": "^9.5.11",
                 "psalm/phar": "^5.15"
             },
-            "time": "2023-11-25T01:01:40+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -1268,12 +1226,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/parallel-functions"
+            "time": "2023-11-25T01:01:40+00:00"
         },
         {
             "name": "amphp/parser",
             "version": "1.x-dev",
-            "version_normalized": "1.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/parser.git",
@@ -1293,10 +1250,8 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.4"
             },
-            "time": "2024-03-21T19:16:53+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Parser\\": "src"
@@ -1334,12 +1289,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/parser"
+            "time": "2024-03-21T19:16:53+00:00"
         },
         {
             "name": "amphp/pipeline",
             "version": "v1.2.1",
-            "version_normalized": "1.2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/pipeline.git",
@@ -1362,9 +1316,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.18"
             },
-            "time": "2024-07-04T00:56:47+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Pipeline\\": "src"
@@ -1404,12 +1356,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/pipeline"
+            "time": "2024-07-04T00:56:47+00:00"
         },
         {
             "name": "amphp/postgres",
             "version": "v2.0.0",
-            "version_normalized": "2.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/postgres.git",
@@ -1436,9 +1387,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.23"
             },
-            "time": "2024-03-10T17:02:44+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php",
@@ -1479,12 +1428,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/postgres"
+            "time": "2024-03-10T17:02:44+00:00"
         },
         {
             "name": "amphp/process",
             "version": "v2.0.3",
-            "version_normalized": "2.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/process.git",
@@ -1509,9 +1457,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.4"
             },
-            "time": "2024-04-19T03:13:44+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -1550,12 +1496,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/process"
+            "time": "2024-04-19T03:13:44+00:00"
         },
         {
             "name": "amphp/redis",
             "version": "v2.0.1",
-            "version_normalized": "2.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/redis.git",
@@ -1588,9 +1533,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.22"
             },
-            "time": "2024-08-03T18:48:06+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php",
@@ -1634,12 +1577,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/redis"
+            "time": "2024-08-03T18:48:06+00:00"
         },
         {
             "name": "amphp/serialization",
             "version": "v1.0.0",
-            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/serialization.git",
@@ -1658,9 +1600,7 @@
                 "amphp/php-cs-fixer-config": "dev-master",
                 "phpunit/phpunit": "^9 || ^8 || ^7"
             },
-            "time": "2020-03-25T21:39:07+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -1695,12 +1635,11 @@
                 "issues": "https://github.com/amphp/serialization/issues",
                 "source": "https://github.com/amphp/serialization/tree/master"
             },
-            "install-path": "../amphp/serialization"
+            "time": "2020-03-25T21:39:07+00:00"
         },
         {
             "name": "amphp/socket",
             "version": "v2.3.1",
-            "version_normalized": "2.3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/socket.git",
@@ -1730,9 +1669,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.20"
             },
-            "time": "2024-04-21T14:33:03+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php",
@@ -1782,12 +1719,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/socket"
+            "time": "2024-04-21T14:33:03+00:00"
         },
         {
             "name": "amphp/sql",
             "version": "v2.0.0",
-            "version_normalized": "2.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/sql.git",
@@ -1808,9 +1744,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.23"
             },
-            "time": "2024-03-10T15:03:32+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Sql\\": "src"
@@ -1839,12 +1773,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/sql"
+            "time": "2024-03-10T15:03:32+00:00"
         },
         {
             "name": "amphp/sql-common",
             "version": "v2.0.0",
-            "version_normalized": "2.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/sql-common.git",
@@ -1867,9 +1800,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.23"
             },
-            "time": "2024-03-10T15:22:18+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Sql\\Common\\": "src"
@@ -1898,12 +1829,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/sql-common"
+            "time": "2024-03-10T15:22:18+00:00"
         },
         {
             "name": "amphp/sync",
             "version": "v2.3.0",
-            "version_normalized": "2.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/sync.git",
@@ -1928,9 +1858,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "5.23"
             },
-            "time": "2024-08-03T19:31:26+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -1976,12 +1904,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/sync"
+            "time": "2024-08-03T19:31:26+00:00"
         },
         {
             "name": "amphp/websocket",
             "version": "2.x-dev",
-            "version_normalized": "2.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/websocket.git",
@@ -2011,10 +1938,8 @@
             "suggest": {
                 "ext-zlib": "Required for compression"
             },
-            "time": "2024-10-28T21:28:45+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -2061,12 +1986,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/websocket"
+            "time": "2024-10-28T21:28:45+00:00"
         },
         {
             "name": "amphp/websocket-client",
             "version": "v2.0.0",
-            "version_normalized": "2.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/websocket-client.git",
@@ -2099,9 +2023,7 @@
                 "psalm/phar": "^5.18",
                 "psr/log": "^1"
             },
-            "time": "2023-12-28T01:48:55+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -2148,12 +2070,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/websocket-client"
+            "time": "2023-12-28T01:48:55+00:00"
         },
         {
             "name": "amphp/websocket-server",
             "version": "4.x-dev",
-            "version_normalized": "4.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/websocket-server.git",
@@ -2192,10 +2113,8 @@
             "suggest": {
                 "ext-zlib": "Required for compression"
             },
-            "time": "2023-12-29T17:41:18+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\Websocket\\Server\\": "src"
@@ -2239,12 +2158,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/websocket-server"
+            "time": "2023-12-29T17:41:18+00:00"
         },
         {
             "name": "amphp/windows-registry",
             "version": "v1.0.1",
-            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/windows-registry.git",
@@ -2265,9 +2183,7 @@
                 "amphp/php-cs-fixer-config": "^2",
                 "psalm/phar": "^5.4"
             },
-            "time": "2024-01-30T23:01:51+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\WindowsRegistry\\": "src"
@@ -2294,12 +2210,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../amphp/windows-registry"
+            "time": "2024-01-30T23:01:51+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
             "version": "v3.0.0",
-            "version_normalized": "3.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bacon/BaconQrCode.git",
@@ -2325,9 +2240,7 @@
             "suggest": {
                 "ext-imagick": "to generate QR code images"
             },
-            "time": "2024-04-18T11:16:25+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "BaconQrCode\\": "src/"
@@ -2351,12 +2264,11 @@
                 "issues": "https://github.com/Bacon/BaconQrCode/issues",
                 "source": "https://github.com/Bacon/BaconQrCode/tree/v3.0.0"
             },
-            "install-path": "../bacon/bacon-qr-code"
+            "time": "2024-04-18T11:16:25+00:00"
         },
         {
             "name": "danog/async-orm",
             "version": "1.0.2",
-            "version_normalized": "1.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/AsyncOrm.git",
@@ -2385,9 +2297,7 @@
                 "phpunit/phpunit": "^11.0.9",
                 "vimeo/psalm": "dev-master"
             },
-            "time": "2024-04-07T18:25:49+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "danog\\AsyncOrm\\": "src/"
@@ -2418,12 +2328,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../danog/async-orm"
+            "time": "2024-04-07T18:25:49+00:00"
         },
         {
             "name": "danog/better-prometheus",
             "version": "0.1.1",
-            "version_normalized": "0.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/better-prometheus.git",
@@ -2444,9 +2353,7 @@
                 "danog/phpdoc": "^0.1.24",
                 "psalm/phar": "dev-master"
             },
-            "time": "2024-05-09T19:10:54+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "danog\\BetterPrometheus\\": "lib/"
@@ -2473,12 +2380,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../danog/better-prometheus"
+            "time": "2024-05-09T19:10:54+00:00"
         },
         {
             "name": "danog/dns-over-https",
             "version": "1.0.0",
-            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/dns-over-https.git",
@@ -2509,9 +2415,7 @@
                 "phpunit/phpunit": "^9",
                 "vimeo/psalm": "dev-master"
             },
-            "time": "2023-12-14T20:00:28+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Amp\\DoH\\": "lib"
@@ -2564,12 +2468,11 @@
                 "issues": "https://github.com/danog/dns-over-https/issues",
                 "source": "https://github.com/danog/dns-over-https/tree/1.0.0"
             },
-            "install-path": "../danog/dns-over-https"
+            "time": "2023-12-14T20:00:28+00:00"
         },
         {
             "name": "danog/ipc",
             "version": "1.0.0",
-            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/ipc.git",
@@ -2594,9 +2497,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5"
             },
-            "time": "2023-02-14T13:19:59+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "lib/functions.php"
@@ -2636,12 +2537,11 @@
                 "issues": "https://github.com/danog/ipc/issues",
                 "source": "https://github.com/danog/ipc/tree/1.0.0"
             },
-            "install-path": "../danog/ipc"
+            "time": "2023-02-14T13:19:59+00:00"
         },
         {
             "name": "danog/libdns-json",
             "version": "0.2.0",
-            "version_normalized": "0.2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/LibDNSJson.git",
@@ -2663,9 +2563,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.1"
             },
-            "time": "2022-12-05T21:13:49+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "danog\\LibDNSJson\\": "lib"
@@ -2700,12 +2598,11 @@
                 "issues": "https://github.com/danog/LibDNSJson/issues",
                 "source": "https://github.com/danog/LibDNSJson/tree/0.2.0"
             },
-            "install-path": "../danog/libdns-json"
+            "time": "2022-12-05T21:13:49+00:00"
         },
         {
             "name": "danog/loop",
             "version": "1.1.1",
-            "version_normalized": "1.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/loop.git",
@@ -2727,9 +2624,7 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "dev-master"
             },
-            "time": "2023-09-30T12:45:07+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "danog\\Loop\\": "lib"
@@ -2764,12 +2659,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../danog/loop"
+            "time": "2023-09-30T12:45:07+00:00"
         },
         {
             "name": "danog/madelineproto",
             "version": "8.3.0",
-            "version_normalized": "8.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/MadelineProto.git",
@@ -2848,9 +2742,7 @@
                 "ext-primemodule": "Install the primemodule and FFI extensions to speed up MadelineProto (https://prime.madelineproto.xyz)",
                 "ext-uv": "Install the uv extension to greatly speed up MadelineProto!"
             },
-            "time": "2024-08-23T12:35:26+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/polyfill.php"
@@ -2895,12 +2787,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../danog/madelineproto"
+            "time": "2024-08-23T12:35:26+00:00"
         },
         {
             "name": "danog/primemodule",
             "version": "1.0.13",
-            "version_normalized": "1.0.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/PrimeModule.git",
@@ -2921,14 +2812,12 @@
             "suggest": {
                 "ext-primemodule": "Install the native C++ extension for extremely fast factorization (https://prime.madelineproto.xyz)"
             },
-            "time": "2023-05-27T14:41:40+00:00",
             "type": "library",
             "extra": {
                 "phabel": {
                     "revision": 0
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-0": {
                     "danog\\": "lib/"
@@ -2949,12 +2838,11 @@
                 "issues": "https://github.com/danog/PrimeModule/issues",
                 "source": "https://github.com/danog/PrimeModule/tree/1.0.13"
             },
-            "install-path": "../danog/primemodule"
+            "time": "2023-05-27T14:41:40+00:00"
         },
         {
             "name": "danog/telegram-entities",
             "version": "1.0.4",
-            "version_normalized": "1.0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/telegram-entities.git",
@@ -2980,9 +2868,7 @@
                 "phpunit/phpunit": "^11.0.9",
                 "vimeo/psalm": "dev-master"
             },
-            "time": "2024-05-09T18:33:35+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "danog\\TelegramEntities\\": "src/"
@@ -3009,12 +2895,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../danog/telegram-entities"
+            "time": "2024-05-09T18:33:35+00:00"
         },
         {
             "name": "danog/tg-dialog-id",
             "version": "1.1.0",
-            "version_normalized": "1.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/tg-dialog-id.git",
@@ -3037,9 +2922,7 @@
                 "phpunit/phpunit": "^11.0.9|^10",
                 "vimeo/psalm": "dev-master"
             },
-            "time": "2024-08-16T12:08:16+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "danog\\DialogId\\": "src/"
@@ -3066,12 +2949,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../danog/tg-dialog-id"
+            "time": "2024-08-16T12:08:16+00:00"
         },
         {
             "name": "danog/tg-file-decoder",
             "version": "1.0.1",
-            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danog/tg-file-decoder.git",
@@ -3092,9 +2974,7 @@
                 "phpunit/phpunit": "^11",
                 "vimeo/psalm": "dev-master"
             },
-            "time": "2024-04-19T21:31:39+00:00",
             "type": "project",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "danog\\Decoder\\": "src/"
@@ -3131,12 +3011,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../danog/tg-file-decoder"
+            "time": "2024-04-19T21:31:39+00:00"
         },
         {
             "name": "dasprid/enum",
             "version": "1.0.6",
-            "version_normalized": "1.0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DASPRiD/Enum.git",
@@ -3155,9 +3034,7 @@
                 "phpunit/phpunit": "^7 || ^8 || ^9 || ^10 || ^11",
                 "squizlabs/php_codesniffer": "*"
             },
-            "time": "2024-08-09T14:30:48+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "DASPRiD\\Enum\\": "src/"
@@ -3184,12 +3061,11 @@
                 "issues": "https://github.com/DASPRiD/Enum/issues",
                 "source": "https://github.com/DASPRiD/Enum/tree/1.0.6"
             },
-            "install-path": "../dasprid/enum"
+            "time": "2024-08-09T14:30:48+00:00"
         },
         {
             "name": "daverandom/libdns",
             "version": "v2.1.0",
-            "version_normalized": "2.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaveRandom/LibDNS.git",
@@ -3208,9 +3084,7 @@
             "suggest": {
                 "ext-intl": "Required for IDN support"
             },
-            "time": "2024-04-12T12:12:48+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -3231,12 +3105,11 @@
                 "issues": "https://github.com/DaveRandom/LibDNS/issues",
                 "source": "https://github.com/DaveRandom/LibDNS/tree/v2.1.0"
             },
-            "install-path": "../daverandom/libdns"
+            "time": "2024-04-12T12:12:48+00:00"
         },
         {
             "name": "doctrine/dbal",
             "version": "3.10.x-dev",
-            "version_normalized": "3.10.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
@@ -3275,12 +3148,10 @@
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
             },
-            "time": "2025-04-22T16:24:33+00:00",
             "bin": [
                 "bin/doctrine-dbal"
             ],
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\DBAL\\": "src"
@@ -3348,12 +3219,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/dbal"
+            "time": "2025-04-22T16:24:33+00:00"
         },
         {
             "name": "doctrine/deprecations",
             "version": "1.1.x-dev",
-            "version_normalized": "1.1.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/deprecations.git",
@@ -3381,10 +3251,8 @@
             "suggest": {
                 "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
             },
-            "time": "2025-04-07T20:06:18+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Deprecations\\": "src"
@@ -3400,12 +3268,11 @@
                 "issues": "https://github.com/doctrine/deprecations/issues",
                 "source": "https://github.com/doctrine/deprecations/tree/1.1.5"
             },
-            "install-path": "../doctrine/deprecations"
+            "time": "2025-04-07T20:06:18+00:00"
         },
         {
             "name": "doctrine/event-manager",
             "version": "2.1.x-dev",
-            "version_normalized": "2.1.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/event-manager.git",
@@ -3429,9 +3296,7 @@
                 "phpstan/phpstan": "^1.8.8",
                 "phpunit/phpunit": "^10.5"
             },
-            "time": "2025-01-10T07:09:52+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\": "src"
@@ -3494,12 +3359,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/event-manager"
+            "time": "2025-01-10T07:09:52+00:00"
         },
         {
             "name": "kelunik/certificate",
             "version": "v1.1.3",
-            "version_normalized": "1.1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kelunik/certificate.git",
@@ -3519,14 +3383,12 @@
                 "amphp/php-cs-fixer-config": "^2",
                 "phpunit/phpunit": "^6 | 7 | ^8 | ^9"
             },
-            "time": "2023-02-03T21:26:53+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Kelunik\\Certificate\\": "src"
@@ -3555,12 +3417,11 @@
                 "issues": "https://github.com/kelunik/certificate/issues",
                 "source": "https://github.com/kelunik/certificate/tree/v1.1.3"
             },
-            "install-path": "../kelunik/certificate"
+            "time": "2023-02-03T21:26:53+00:00"
         },
         {
             "name": "laravel/serializable-closure",
             "version": "1.x-dev",
-            "version_normalized": "1.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
@@ -3582,14 +3443,12 @@
                 "phpstan/phpstan": "^1.8.2",
                 "symfony/var-dumper": "^5.4.11|^6.2.0|^7.0.0"
             },
-            "time": "2024-11-19T20:48:19+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Laravel\\SerializableClosure\\": "src/"
@@ -3619,12 +3478,11 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "install-path": "../laravel/serializable-closure"
+            "time": "2024-11-19T20:48:19+00:00"
         },
         {
             "name": "league/uri",
             "version": "7.4.1",
-            "version_normalized": "7.4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
@@ -3653,14 +3511,12 @@
                 "php-64bit": "to improve IPV4 host parsing",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
-            "time": "2024-03-23T07:42:40+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "7.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "League\\Uri\\": ""
@@ -3712,12 +3568,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../league/uri"
+            "time": "2024-03-23T07:42:40+00:00"
         },
         {
             "name": "league/uri-components",
             "version": "7.4.1",
-            "version_normalized": "7.4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-components.git",
@@ -3743,14 +3598,12 @@
                 "php-64bit": "to improve IPV4 host parsing",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
-            "time": "2024-03-23T07:42:40+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "7.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "League\\Uri\\": ""
@@ -3797,12 +3650,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../league/uri-components"
+            "time": "2024-03-23T07:42:40+00:00"
         },
         {
             "name": "league/uri-interfaces",
             "version": "7.4.1",
-            "version_normalized": "7.4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-interfaces.git",
@@ -3827,14 +3679,12 @@
                 "php-64bit": "to improve IPV4 host parsing",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
-            "time": "2024-03-23T07:42:40+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "7.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "League\\Uri\\": ""
@@ -3884,12 +3734,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../league/uri-interfaces"
+            "time": "2024-03-23T07:42:40+00:00"
         },
         {
             "name": "monolog/monolog",
             "version": "3.7.0",
-            "version_normalized": "3.7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
@@ -3943,14 +3792,12 @@
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
-            "time": "2024-06-28T09:40:51+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-main": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -3988,12 +3835,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../monolog/monolog"
+            "time": "2024-06-28T09:40:51+00:00"
         },
         {
             "name": "nikic/fast-route",
             "version": "v1.x-dev",
-            "version_normalized": "1.9999999.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
@@ -4011,9 +3857,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35|~5.7"
             },
-            "time": "2019-12-20T12:15:33+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
@@ -4041,12 +3885,11 @@
                 "issues": "https://github.com/nikic/FastRoute/issues",
                 "source": "https://github.com/nikic/FastRoute/tree/v1.x"
             },
-            "install-path": "../nikic/fast-route"
+            "time": "2019-12-20T12:15:33+00:00"
         },
         {
             "name": "nikic/php-parser",
             "version": "v5.1.0",
-            "version_normalized": "5.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
@@ -4068,7 +3911,6 @@
                 "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^9.0"
             },
-            "time": "2024-07-01T20:03:41+00:00",
             "bin": [
                 "bin/php-parse"
             ],
@@ -4078,7 +3920,6 @@
                     "dev-master": "5.0-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "PhpParser\\": "lib/PhpParser"
@@ -4102,12 +3943,11 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.1.0"
             },
-            "install-path": "../nikic/php-parser"
+            "time": "2024-07-01T20:03:41+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
             "version": "v3.0.0",
-            "version_normalized": "3.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/constant_time_encoding.git",
@@ -4126,9 +3966,7 @@
                 "phpunit/phpunit": "^9",
                 "vimeo/psalm": "^4|^5"
             },
-            "time": "2024-05-08T12:36:18+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "ParagonIE\\ConstantTime\\": "src/"
@@ -4172,12 +4010,11 @@
                 "issues": "https://github.com/paragonie/constant_time_encoding/issues",
                 "source": "https://github.com/paragonie/constant_time_encoding"
             },
-            "install-path": "../paragonie/constant_time_encoding"
+            "time": "2024-05-08T12:36:18+00:00"
         },
         {
             "name": "paragonie/random_compat",
             "version": "v9.99.100",
-            "version_normalized": "9.99.100.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
@@ -4199,9 +4036,7 @@
             "suggest": {
                 "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
             },
-            "time": "2020-10-15T08:29:30+00:00",
             "type": "library",
-            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -4225,12 +4060,11 @@
                 "issues": "https://github.com/paragonie/random_compat/issues",
                 "source": "https://github.com/paragonie/random_compat"
             },
-            "install-path": "../paragonie/random_compat"
+            "time": "2020-10-15T08:29:30+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
             "version": "3.0.41",
-            "version_normalized": "3.0.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
@@ -4257,9 +4091,7 @@
                 "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
                 "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
             },
-            "time": "2024-08-12T00:13:54+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "phpseclib/bootstrap.php"
@@ -4338,12 +4170,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../phpseclib/phpseclib"
+            "time": "2024-08-12T00:13:54+00:00"
         },
         {
             "name": "promphp/prometheus_client_php",
             "version": "v2.11.0",
-            "version_normalized": "2.11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PromPHP/prometheus_client_php.git",
@@ -4381,14 +4212,12 @@
                 "promphp/prometheus_push_gateway_php": "An easy client for using Prometheus PushGateway.",
                 "symfony/polyfill-apcu": "Required if you use APCu on PHP8.0+"
             },
-            "time": "2024-08-05T07:58:08+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Prometheus\\": "src/Prometheus/"
@@ -4409,12 +4238,11 @@
                 "issues": "https://github.com/PromPHP/prometheus_client_php/issues",
                 "source": "https://github.com/PromPHP/prometheus_client_php/tree/v2.11.0"
             },
-            "install-path": "../promphp/prometheus_client_php"
+            "time": "2024-08-05T07:58:08+00:00"
         },
         {
             "name": "psr/cache",
             "version": "dev-master",
-            "version_normalized": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/cache.git",
@@ -4432,7 +4260,6 @@
             "suggest": {
                 "fig/cache-util": "Provides some useful PSR-6 utilities"
             },
-            "time": "2025-04-11T19:21:12+00:00",
             "default-branch": true,
             "type": "library",
             "extra": {
@@ -4440,7 +4267,6 @@
                     "dev-master": "3.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Cache\\": "src/"
@@ -4465,12 +4291,11 @@
             "support": {
                 "source": "https://github.com/php-fig/cache"
             },
-            "install-path": "../psr/cache"
+            "time": "2025-04-11T19:21:12+00:00"
         },
         {
             "name": "psr/http-factory",
             "version": "1.1.0",
-            "version_normalized": "1.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
@@ -4486,14 +4311,12 @@
                 "php": ">=7.1",
                 "psr/http-message": "^1.0 || ^2.0"
             },
-            "time": "2024-04-15T12:06:14+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -4523,12 +4346,11 @@
             "support": {
                 "source": "https://github.com/php-fig/http-factory"
             },
-            "install-path": "../psr/http-factory"
+            "time": "2024-04-15T12:06:14+00:00"
         },
         {
             "name": "psr/http-message",
             "version": "2.0",
-            "version_normalized": "2.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -4543,14 +4365,12 @@
             "require": {
                 "php": "^7.2 || ^8.0"
             },
-            "time": "2023-04-04T09:54:51+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Http\\Message\\": "src/"
@@ -4579,12 +4399,11 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/2.0"
             },
-            "install-path": "../psr/http-message"
+            "time": "2023-04-04T09:54:51+00:00"
         },
         {
             "name": "psr/log",
             "version": "3.0.1",
-            "version_normalized": "3.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
@@ -4599,14 +4418,12 @@
             "require": {
                 "php": ">=8.0.0"
             },
-            "time": "2024-08-21T13:31:24+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Log\\": "src"
@@ -4632,12 +4449,11 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
-            "install-path": "../psr/log"
+            "time": "2024-08-21T13:31:24+00:00"
         },
         {
             "name": "revolt/event-loop",
             "version": "v1.0.6",
-            "version_normalized": "1.0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/revoltphp/event-loop.git",
@@ -4658,14 +4474,12 @@
                 "phpunit/phpunit": "^9",
                 "psalm/phar": "^5.15"
             },
-            "time": "2023-11-30T05:34:44+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-main": "1.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Revolt\\": "src"
@@ -4707,12 +4521,11 @@
                 "issues": "https://github.com/revoltphp/event-loop/issues",
                 "source": "https://github.com/revoltphp/event-loop/tree/v1.0.6"
             },
-            "install-path": "../revolt/event-loop"
+            "time": "2023-11-30T05:34:44+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.30.0",
-            "version_normalized": "1.30.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -4733,15 +4546,13 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
-            "time": "2024-06-19T12:30:46+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -4790,12 +4601,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-mbstring"
+            "time": "2024-06-19T12:30:46+00:00"
         },
         {
             "name": "webmozart/assert",
             "version": "1.11.0",
-            "version_normalized": "1.11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
@@ -4818,14 +4628,12 @@
             "require-dev": {
                 "phpunit/phpunit": "^8.5.13"
             },
-            "time": "2022-06-03T18:03:27+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.10-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Webmozart\\Assert\\": "src/"
@@ -4851,9 +4659,18 @@
                 "issues": "https://github.com/webmozarts/assert/issues",
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
-            "install-path": "../webmozart/assert"
+            "time": "2022-06-03T18:03:27+00:00"
         }
     ],
-    "dev": true,
-    "dev-package-names": []
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "amphp/mysql-dbal": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }

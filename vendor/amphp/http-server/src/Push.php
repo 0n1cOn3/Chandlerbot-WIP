@@ -8,18 +8,15 @@ use Psr\Http\Message\UriInterface as PsrUri;
 
 final class Push extends HttpMessage
 {
-    private readonly PsrUri $uri;
-
     /**
      * @param array<non-empty-string, string|array<string>> $headers
      *
      * @throws InvalidHeaderException If given headers contain and invalid header name or value.
      * @throws \Error If the given headers have a colon-prefixed header or a Host header.
      */
-    public function __construct(PsrUri $uri, array $headers = [])
+    public function __construct(private readonly PsrUri $uri, array $headers = [])
     {
         $this->setHeaders($headers);
-        $this->uri = $uri;
     }
 
     protected function setHeader(string $name, array|string $value): void

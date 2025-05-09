@@ -10,11 +10,11 @@
 	"amphp/file": "v3.1.1",
 	"amphp/hpack": "v3.2.1",
         "amphp/http-client": "5.1.0",
-        "amphp/http-server-router": "3.3.1",
+        "amphp/http-server-router": "^2.0",
         "amphp/http": "v2.1.1",
         "amphp/log": "v2.0.0",
-        "amphp/mysql-dbal": "v3.0.0",
-        "amphp/parallel-functions": "v2.2.9",
+        "amphp/mysql-dbal": "dev-master",
+        "amphp/parallel-functions": "^2.9",
         "amphp/pipeline": "v1.2.1",
         "amphp/postgres": "v2.0.0",
         "amphp/process": "v2.0.3",
@@ -25,7 +25,7 @@
         "amphp/sql": "v2.0.0",
         "amphp/sync": "v2.3.0",
         "amphp/websocket-client": "v2.0.0",
-        "amphp/websocket-server": "v2.0.3",
+        "amphp/websocket-server": "^4.0",
         "amphp/windows-registry": "v1.0.1",
         "bacon/bacon-qr-code": "v3.0.0",
         "danog/async-orm": "1.0.2",
@@ -69,5 +69,5 @@
             "email": "0n1cOn3@gmx.ch"
         }
     ],
-    "minimum-stability": "alpha"
+    "minimum-stability": "dev"
 }

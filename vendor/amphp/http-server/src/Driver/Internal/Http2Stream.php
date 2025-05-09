@@ -18,23 +18,14 @@ final class Http2Stream
     public const REMOTE_CLOSED = 0b0010;
     public const LOCAL_CLOSED = 0b0100;
 
-    /** @var int Current body size limit. */
-    public int $bodySizeLimit;
-
     /** @var int Bytes received on the stream. */
     public int $receivedByteCount = 0;
-
-    public int $serverWindow;
-
-    public int $clientWindow;
 
     public ?Future $pendingResponse = null;
 
     public ?Future $pendingWrite = null;
 
     public string $buffer = "";
-
-    public int $state;
 
     public ?DeferredFuture $deferredFuture = null;
 
@@ -47,13 +38,12 @@ final class Http2Stream
 
     public readonly DeferredCancellation $deferredCancellation;
 
-    public function __construct(int $bodySizeLimit, int $serverSize, int $clientSize, int $state = self::OPEN)
-    {
-        $this->bodySizeLimit = $bodySizeLimit;
-        $this->serverWindow = $serverSize;
-        $this->clientWindow = $clientSize;
-        $this->state = $state;
-
+    public function __construct(
+        public int $bodySizeLimit,
+        public int $serverWindow,
+        public int $clientWindow,
+        public int $state = self::OPEN,
+    ) {
         $this->deferredCancellation = new DeferredCancellation();
     }
 }

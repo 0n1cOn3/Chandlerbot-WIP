@@ -14,8 +14,8 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         'bcb7d4fc55f4b1a7e10f5806723e9892' => __DIR__ . '/..' . '/amphp/sync/src/functions.php',
         '6c2681bc13923b80242cc286856cab22' => __DIR__ . '/..' . '/amphp/byte-stream/src/functions.php',
         '4ee21bf8253a2272056aefb41f7f0116' => __DIR__ . '/..' . '/amphp/byte-stream/src/Internal/functions.php',
-        '445532134d762b3cbc25500cac266092' => __DIR__ . '/..' . '/daverandom/libdns/src/functions.php',
         '107d0b55c0ad2d07d8643394552ac029' => __DIR__ . '/..' . '/amphp/process/src/functions.php',
+        '445532134d762b3cbc25500cac266092' => __DIR__ . '/..' . '/daverandom/libdns/src/functions.php',
         'f4c761ca07639428acc28ba36643243e' => __DIR__ . '/..' . '/amphp/dns/src/functions.php',
         'd4e415514e4352172d58f02433fa50e4' => __DIR__ . '/..' . '/amphp/socket/src/functions.php',
         '1c2dcb9d6851a7abaae89f9586ddd460' => __DIR__ . '/..' . '/amphp/socket/src/Internal/functions.php',
@@ -25,24 +25,26 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         'db2f6d3e039789c7acd0e5d1d5a42077' => __DIR__ . '/..' . '/amphp/http-client/src/functions.php',
         '77e5a577434e31d19d8dd6aeceac1ff4' => __DIR__ . '/..' . '/amphp/http-client/src/Internal/functions.php',
         '73cfe662a9f753fb79cdfcb7b4206d43' => __DIR__ . '/..' . '/amphp/mysql/src/functions.php',
-        '4da7a33b8388a4c58699a4f48894fced' => __DIR__ . '/..' . '/amphp/postgres/src/functions.php',
-        '33e77b43ad8185a87488d9c8e2900fb0' => __DIR__ . '/..' . '/amphp/postgres/src/Internal/functions.php',
-        '792db3860ad68f8c7b522ed67947a5eb' => __DIR__ . '/..' . '/amphp/redis/src/functions.php',
-        '6a333119f7ba58386c4385af1d708a0a' => __DIR__ . '/..' . '/amphp/redis/src/Internal/functions.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '9dc653cbaa44da77069f245bac46455f' => __DIR__ . '/..' . '/amphp/http-server/src/Driver/functions.php',
+        '3ff3609f8c8173833eaa97521a843531' => __DIR__ . '/..' . '/amphp/http-server/src/Middleware/functions.php',
+        'a56027adf84a32da155734de2d858e65' => __DIR__ . '/..' . '/amphp/http-server/src/functions.php',
         '5d92623b88cbe7c988a6aca6fa79ebce' => __DIR__ . '/..' . '/amphp/parallel/src/Context/functions.php',
         'c20d640a0b06382af5bbe7e0c7475adf' => __DIR__ . '/..' . '/amphp/parallel/src/Context/Internal/functions.php',
         '42a785d14bae29c606457755ffd1653b' => __DIR__ . '/..' . '/amphp/parallel/src/Ipc/functions.php',
         '805558626a43dc52f2afc82368f8d62e' => __DIR__ . '/..' . '/amphp/parallel/src/Worker/functions.php',
+        '4da7a33b8388a4c58699a4f48894fced' => __DIR__ . '/..' . '/amphp/postgres/src/functions.php',
+        '33e77b43ad8185a87488d9c8e2900fb0' => __DIR__ . '/..' . '/amphp/postgres/src/Internal/functions.php',
+        '792db3860ad68f8c7b522ed67947a5eb' => __DIR__ . '/..' . '/amphp/redis/src/functions.php',
+        '6a333119f7ba58386c4385af1d708a0a' => __DIR__ . '/..' . '/amphp/redis/src/Internal/functions.php',
         '3d05d4f147c95ba663000bd908d45656' => __DIR__ . '/..' . '/amphp/websocket/src/functions.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'd10f490189cfd2d00bda2b165dfbacae' => __DIR__ . '/..' . '/amphp/file/src/functions.php',
-        '9dc653cbaa44da77069f245bac46455f' => __DIR__ . '/..' . '/amphp/http-server/src/Driver/functions.php',
-        '3ff3609f8c8173833eaa97521a843531' => __DIR__ . '/..' . '/amphp/http-server/src/Middleware/functions.php',
-        'a56027adf84a32da155734de2d858e65' => __DIR__ . '/..' . '/amphp/http-server/src/functions.php',
         '5ac5dbc97af12bd847e1db9fe93e192f' => __DIR__ . '/..' . '/amphp/log/src/functions.php',
         '4be4fbd9f5a89207b1fd1c85ae339dd7' => __DIR__ . '/..' . '/amphp/websocket-client/src/functions.php',
         '2b4b72fd9056e8b7ab3f418bbf68fc53' => __DIR__ . '/..' . '/danog/ipc/lib/functions.php',
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
+        '861372841bb4b8ba9fdd215894666f40' => __DIR__ . '/..' . '/amphp/parallel-functions/src/functions.php',
         'cad60ee4f0892badc28f3feef7cce08d' => __DIR__ . '/..' . '/danog/madelineproto/src/polyfill.php',
     );
 
@@ -78,6 +80,7 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'Psr\\Cache\\' => 10,
             'Prometheus\\' => 11,
             'PhpParser\\' => 10,
             'ParagonIE\\ConstantTime\\' => 23,
@@ -90,6 +93,7 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         array (
             'LibDNS\\' => 7,
             'League\\Uri\\' => 11,
+            'Laravel\\SerializableClosure\\' => 28,
         ),
         'K' => 
         array (
@@ -99,8 +103,15 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         array (
             'Hx\\Chandlerbot\\' => 15,
         ),
+        'F' => 
+        array (
+            'FastRoute\\' => 10,
+        ),
         'D' => 
         array (
+            'Doctrine\\Deprecations\\' => 22,
+            'Doctrine\\DBAL\\' => 14,
+            'Doctrine\\Common\\' => 16,
             'DASPRiD\\Enum\\' => 13,
         ),
         'B' => 
@@ -110,6 +121,7 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         'A' => 
         array (
             'Amp\\WindowsRegistry\\' => 20,
+            'Amp\\Websocket\\Server\\' => 21,
             'Amp\\Websocket\\Client\\' => 21,
             'Amp\\Websocket\\' => 14,
             'Amp\\Sync\\' => 9,
@@ -123,6 +135,8 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
             'Amp\\Pipeline\\' => 13,
             'Amp\\Parser\\' => 11,
             'Amp\\Parallel\\' => 13,
+            'Amp\\ParallelFunctions\\' => 22,
+            'Amp\\Mysql\\DBAL\\' => 15,
             'Amp\\Mysql\\' => 10,
             'Amp\\Log\\' => 8,
             'Amp\\Ipc\\' => 8,
@@ -197,6 +211,10 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
         'Prometheus\\' => 
         array (
             0 => __DIR__ . '/..' . '/promphp/prometheus_client_php/src/Prometheus',
@@ -223,6 +241,10 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
             1 => __DIR__ . '/..' . '/league/uri',
             2 => __DIR__ . '/..' . '/league/uri-interfaces',
         ),
+        'Laravel\\SerializableClosure\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/serializable-closure/src',
+        ),
         'Kelunik\\Certificate\\' => 
         array (
             0 => __DIR__ . '/..' . '/kelunik/certificate/src',
@@ -230,6 +252,22 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         'Hx\\Chandlerbot\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'FastRoute\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Doctrine\\Deprecations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/deprecations/src',
+        ),
+        'Doctrine\\DBAL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/dbal/src',
+        ),
+        'Doctrine\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/event-manager/src',
         ),
         'DASPRiD\\Enum\\' => 
         array (
@@ -242,6 +280,10 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         'Amp\\WindowsRegistry\\' => 
         array (
             0 => __DIR__ . '/..' . '/amphp/windows-registry/src',
+        ),
+        'Amp\\Websocket\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/websocket-server/src',
         ),
         'Amp\\Websocket\\Client\\' => 
         array (
@@ -295,6 +337,14 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         array (
             0 => __DIR__ . '/..' . '/amphp/parallel/src',
         ),
+        'Amp\\ParallelFunctions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/parallel-functions/src',
+        ),
+        'Amp\\Mysql\\DBAL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/mysql-dbal/src',
+        ),
         'Amp\\Mysql\\' => 
         array (
             0 => __DIR__ . '/..' . '/amphp/mysql/src',
@@ -309,7 +359,8 @@ class ComposerStaticInita2c3dd5cee821c6dfcab5cb3a727f174
         ),
         'Amp\\Http\\Server\\' => 
         array (
-            0 => __DIR__ . '/..' . '/amphp/http-server/src',
+            0 => __DIR__ . '/..' . '/amphp/http-server-router/src',
+            1 => __DIR__ . '/..' . '/amphp/http-server/src',
         ),
         'Amp\\Http\\Client\\Cookie\\' => 
         array (

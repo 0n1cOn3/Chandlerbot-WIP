@@ -3,6 +3,7 @@
 namespace Amp\Http\Server\Driver\Internal;
 
 use Amp\Http\Server\Driver\Client;
+use Amp\Sync\PriorityQueue;
 use Revolt\EventLoop;
 use function Amp\async;
 use function Amp\weakClosure;
@@ -10,7 +11,7 @@ use function Amp\weakClosure;
 /** @internal */
 final class TimeoutQueue
 {
-    private readonly TimeoutCache $timeoutCache;
+    private readonly PriorityQueue $priorityQueue;
 
     private readonly \WeakMap $streamNames;
 
@@ -23,7 +24,7 @@ final class TimeoutQueue
 
     public function __construct()
     {
-        $this->timeoutCache = new TimeoutCache();
+        $this->priorityQueue = new PriorityQueue();
         $this->streamNames = new \WeakMap();
         $this->now = \time();
 
@@ -31,7 +32,7 @@ final class TimeoutQueue
             EventLoop::repeat(1, weakClosure(function (): void {
                 $this->now = \time();
 
-                while ($id = $this->timeoutCache->extract($this->now)) {
+                while ($id = $this->priorityQueue->extract($this->now)) {
                     \assert(isset($this->callbacks[$id]), "Timeout cache contains an invalid client ID");
 
                     // Client is either idle or taking too long to send request, so simply close the connection.
@@ -59,7 +60,7 @@ final class TimeoutQueue
         \assert(!isset($this->callbacks[$cacheId]));
 
         $this->callbacks[$cacheId] = [$client, $streamId, $onTimeout];
-        $this->timeoutCache->update($cacheId, $this->now + $timeout);
+        $this->priorityQueue->insert($cacheId, $this->now + $timeout);
     }
 
     private function makeId(Client $client, int $streamId): string
@@ -75,9 +76,17 @@ final class TimeoutQueue
     public function update(Client $client, int $streamId, int $timeout): void
     {
         $cacheId = $this->makeId($client, $streamId);
-        \assert(isset($this->callbacks[$cacheId]));
+        \assert(isset($this->callbacks[$cacheId], $this->streamNames[$client][$streamId]));
 
-        $this->timeoutCache->update($cacheId, $this->now + $timeout);
+        $this->priorityQueue->insert($cacheId, $this->now + $timeout);
+    }
+
+    public function suspend(Client $client, int $streamId): void
+    {
+        $cacheId = $this->makeId($client, $streamId);
+        \assert(isset($this->callbacks[$cacheId], $this->streamNames[$client][$streamId]));
+
+        $this->priorityQueue->remove($cacheId);
     }
 
     /**
@@ -87,7 +96,7 @@ final class TimeoutQueue
     {
         $cacheId = $this->makeId($client, $streamId);
 
-        $this->timeoutCache->clear($cacheId);
+        $this->priorityQueue->remove($cacheId);
         unset($this->callbacks[$cacheId], $this->streamNames[$client][$streamId]);
     }
 }
