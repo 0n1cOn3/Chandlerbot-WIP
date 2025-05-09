@@ -1,0 +1,29 @@
+<?php
+ include("extinc/usefull_functions.php");
+ include("extinc/simple_html_dom.php");
+
+ include("inc/logger.inc.php");
+ include("inc/channelConf.inc.php");
+ include("inc/settings.inc.php");
+ include("inc/initMadeline.inc.php");
+ include("inc/exceptions.inc.php");
+ include("inc/pg_db.inc.php");
+ include("inc/parseAllMessages.inc.php");
+ include("inc/sync.inc.php");
+ include("inc/askPaul.inc.php");
+ include("inc/forcedelete.inc.php");
+ include("inc/download.inc.php");
+ include("inc/usr_managment.inc.php");
+ include("inc/lastResults.inc.php");
+ include("inc/search.inc.php");
+ include("inc/getTopicIds.inc.php");
+ include("inc/admin.inc.php"); 
+ include("inc/request.inc.php"); 
+ include("inc/repostmsg.inc.php"); 
+ include("inc/channelReaderJob.inc.php");
+ include("inc/chnStepperJob.inc.php");
+ include("inc/shm.inc.php");
+ include("inc/fwdStepperJob.inc.php");
+ include("inc/autoSyncJob.inc.php");
+ include("inc/jobs.inc.php"); 
+

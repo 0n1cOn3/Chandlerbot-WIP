@@ -1,0 +1,306 @@
+/* General body styles */
+body {
+	background-color: #120015;
+	color: #c6c4c4;
+	height: 95%;
+  }
+  
+  /* Main container */
+  .main {
+	border: 2px solid gray;
+	width: 100%;
+	height: 80%;
+	border-radius: 1% 0% 1% 1%;
+  }
+  
+  /* View border */
+  .viewborder {
+	position: absolute;
+	border: 2px solid gray;
+	right: 4px;
+	width: 50%;
+	height: 60%;
+	float: right;
+	margin: 10px;
+	border-radius: 2% 0% 2% 2%;
+  }
+  
+  /* View container */
+  .viewcontainer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 10px;
+	margin: auto;
+	width: 97%;
+	max-height: 92%;
+	overflow: hidden;
+	color: white;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 10px;
+	overflow-x: hidden;
+  }
+  
+  /* Main menu */
+  .mainmenu {
+	position: absolute;
+	width: 50%;
+	height: 20px;
+	margin: 10px;
+	bottom: 90px;
+	border-radius: 2% 0% 2% 2%;
+  }
+  
+  /* Full log button */
+  .fulllogbutton,
+  .fulllogbuttonhide {
+	margin: auto;
+	position: absolute;
+	overflow: visible;
+	display: inline;
+  }
+  
+  /* Full log container */
+  .fulllog {
+	height: 100%;
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 97%;
+	max-height: 98%;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	overflow: auto;
+  }
+  
+  /* Bot command container */
+  .botcmd {
+	margin: auto;
+	position: absolute;
+	left: 50px;
+	overflow: visible;
+	display: inline;
+  }
+  
+  /* Bot action */
+  #botaction {
+	margin: auto;
+	position: absolute;
+	left: 50px;
+	overflow: visible;
+	bottom: 100%;
+	display: inline;
+  }
+  
+  /* Hidden image */
+  .hidden-image {
+	display: none;
+  }
+  
+  /* Log size display */
+  .logsize,
+  .cpuload,
+  .queue,
+  .fwdstatus {
+	margin: auto;
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 12px;
+	display: inline;
+  }
+  
+  .logsize {
+	left: 84%;
+	bottom: 1%;
+  }
+  
+  .cpuload {
+	left: 76%;
+	bottom: 1%;
+  }
+  
+  .queue {
+	left: 2%;
+	bottom: 1%;
+  }
+  
+  .fwdstatus {
+	left: 35%;
+	bottom: 1%;
+  }
+  
+  /* Bot command output */
+  .botcmdout {
+	border: 2px solid gray;
+	border-radius: 3% 0% 3% 3%;
+	width: 250px;
+	margin: auto;
+	position: absolute;
+	right: 43%;
+	bottom: 60%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 12px;
+	background-color: black;
+  }
+  
+  /* Bot command output text */
+  .botcmdouttext {}
+  
+  /* Edit output container */
+  .editout {
+	height: 40%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 10%;
+	margin: auto;
+	width: 30%;
+	overflow: auto;
+	color: white;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 10px;
+	overflow-x: auto;
+	border: 2px solid gray;
+	border-radius: 3% 0% 3% 3%;
+	background-color: black;
+	padding: 10px;
+  }
+  
+  /* Edit output text */
+  .editouttext {}
+  
+  /* Edit buttons */
+  #editokaybutton,
+  #editsavebutton,
+  #editdeletebutton {
+	position: absolute;
+	bottom: 5%;
+  }
+  
+  #editokaybutton {
+	right: 2%;
+  }
+  
+  #editsavebutton {
+	right: 80%;
+  }
+  
+  #editdeletebutton {
+	right: 89%;
+  }
+  
+  /* Statement */
+  .statement {
+	margin: auto;
+	position: absolute;
+	right: 50%;
+	bottom: 10%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 12px;
+  }
+  
+  /* Configuration main container */
+  .confmain {
+	border: 2px solid gray;
+	border-radius: 3% 0% 3% 3%;
+	width: 47%;
+	position: absolute;
+	height: 70%;
+	left: 1%;
+	top: 3%;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 10px;
+	overflow-x: auto;
+	overflow-y: auto;
+  }
+  
+  /* Tooltip and arrow */
+  .ui-tooltip,
+  .arrow:after {
+	background: black;
+	border: 2px solid white;
+  }
+  
+  .ui-tooltip {
+	padding: 10px;
+	color: white;
+	background: black;
+	border-radius: 20px;
+	font: bold 10px Sans-Serif;
+	text-transform: uppercase;
+	box-shadow: 0 0 7px black;
+	white-space: pre-line;
+  }
+  
+  .arrow {
+	width: 70px;
+	height: 16px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	bottom: -16px;
+  }
+  
+  .arrow.top {
+	top: -16px;
+	bottom: auto;
+  }
+  
+  .arrow.left {
+	left: 20%;
+  }
+  
+  .arrow:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	width: 20px;
+	height: 20px;
+	box-shadow: 6px 5px 9px -9px black;
+	transform: rotate(45deg);
+  }
+  
+  .arrow.top:after {
+	bottom: -20px;
+	top: auto;
+  }
+  
+  /* Yes/No container */
+  .yesno {
+	height: 20%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 10%;
+	margin: auto;
+	width: 10%;
+	overflow: auto;
+	color: white;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 15px;
+	overflow-x: auto;
+	border: 2px solid gray;
+	border-radius: 3% 0% 3% 3%;
+	background-color: black;
+	padding: 10px;
+  }
+  
+  /* Yes/No output */
+  .yesnoout {}
+  
