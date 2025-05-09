@@ -47,3 +47,6 @@ jobs:
 
     - name: Run tests
       run: php bin/phpunit
+
+    - name: Check Symfony versioning
+      run: symfony self:update --dry-run
