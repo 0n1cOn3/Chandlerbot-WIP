@@ -68,6 +68,39 @@ show_status() {
   echo -e "${color}${service_name}: ${symbol}\e[0m"
 }
 
+# Function to start a service with error handling
+start_service() {
+  local service="$1"
+  echo "Starting service: ${service}"
+  if ! systemctl start "${service}"; then
+    echo "Error: Failed to start service: ${service}"
+    exit 1
+  fi
+}
+
+# Function to stop a service with error handling
+stop_service() {
+  local service="$1"
+  echo "Stopping service: ${service}"
+  if ! systemctl stop "${service}"; then
+    echo "Error: Failed to stop service: ${service}"
+    exit 1
+  fi
+}
+
+# Function to check the status of a service with error handling
+status_service() {
+  local service="$1"
+  echo "Checking status of service: ${service}"
+  if ! systemctl is-active --quiet "${service}"; then
+    echo "Service ${service} is not running"
+    return 1
+  else
+    echo "Service ${service} is running"
+    return 0
+  fi
+}
+
 # Handle different actions based on the first argument
 case "$1" in
   "start")

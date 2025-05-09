@@ -19,10 +19,20 @@ function fwdStatus(): void
 
     // Attach shared memory
     $shm_key = fileinode("../bin/chandlerbot.php");
-    $shm = shm_attach($shm_key);
+    $shm = @shm_attach($shm_key);
+
+    if ($shm === false) {
+        echo "<b><p style='color:red;'>Error: Failed to attach shared memory.</p></b>";
+        return;
+    }
 
     // Retrieve shared memory variable
-    $out = shm_get_var($shm, 3);
+    $out = @shm_get_var($shm, 3);
+
+    if ($out === false) {
+        echo "<b><p style='color:red;'>Error: Failed to retrieve shared memory variable.</p></b>";
+        return;
+    }
 
     if (is_array($out)) {
         // Process status based on the value of $out[0]

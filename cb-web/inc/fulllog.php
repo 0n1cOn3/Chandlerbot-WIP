@@ -30,7 +30,11 @@ function fullLog(): void
 function getLogContents(string $logFile): string
 {
     if (file_exists($logFile) && is_readable($logFile)) {
-        return file_get_contents($logFile);
+        $contents = file_get_contents($logFile);
+        if ($contents === false) {
+            return 'Error reading the log file.';
+        }
+        return $contents;
     }
 
     // Return a message if the log file is not available or readable

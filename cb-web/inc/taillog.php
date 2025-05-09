@@ -49,6 +49,12 @@ function taillog(string $logFilePath = '../log.chandlerbot.log', int $lastLines 
         }
     }
 
+    if (fseek($file, $position, SEEK_END) !== 0) {
+        echo '<b>Failed to seek in log file.</b>';
+        fclose($file);
+        exit;
+    }
+
     fclose($file);
 
     foreach (array_reverse($lines) as $line) {

@@ -32,6 +32,12 @@ function executeBotCommand(string $action): void
 function runShellCommand(string $command): string
 {
     $escapedCommand = escapeshellcmd($command); // Escape to prevent security vulnerabilities
-    return shell_exec("cd ..; $escapedCommand");
+    $output = shell_exec("cd ..; $escapedCommand");
+
+    if ($output === null) {
+        return "Error: Failed to execute command: $command";
+    }
+
+    return $output;
 }
 ?>
